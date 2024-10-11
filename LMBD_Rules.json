@@ -76,6 +76,15 @@
     ]
   },
   {
+    "port": "50000-50100",
+    "inboundTag": [
+      "socks"
+    ],
+    "outboundTag": "proxy",
+    "ip": [],
+    "domain": []
+  },
+  {
     "port": "",
     "outboundTag": "proxy",
     "ip": [],
