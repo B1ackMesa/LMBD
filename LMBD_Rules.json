@@ -1,5 +1,16 @@
 [
   {
+    "outboundTag": "direct",
+    "protocol": [
+      "bittorrent"
+    ]
+  },
+  {
+    "port": "443",
+    "network": "udp",
+    "outboundTag": "block"
+  },
+  {
     "port": "53, 80, 2517, 2520",
     "outboundTag": "proxy",
     "ip": [
@@ -16,17 +27,6 @@
       "26.0.0.0/8"
     ],
     "domain": []
-  },
-  {
-    "outboundTag": "direct",
-    "protocol": [
-      "bittorrent"
-    ]
-  },
-  {
-    "port": "443",
-    "network": "udp",
-    "outboundTag": "block"
   },
   {
     "outboundTag": "block",
