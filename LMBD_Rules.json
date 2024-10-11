@@ -8,7 +8,9 @@
   {
     "port": "443",
     "network": "udp",
-    "outboundTag": "block"
+    "outboundTag": "block",
+    "ip": [],
+    "domain": []
   },
   {
     "port": "53, 80, 2517, 2520",
@@ -53,6 +55,7 @@
     "ip": [],
     "domain": [
       "discord.com",
+      "discordstatus.com",
       "discord-attachments-uploads-prd.storage.googleapis.com",
       "dis.gd",
       "discord.co",
@@ -76,6 +79,7 @@
   },
   {
     "port": "50000-50100",
+    "network": "udp",
     "inboundTag": [
       "socks"
     ],
