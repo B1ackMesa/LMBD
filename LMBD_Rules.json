@@ -1,0 +1,90 @@
+[
+  {
+    "port": "53, 80, 2517, 2520",
+    "outboundTag": "proxy",
+    "ip": [
+      "188.64.13.67"
+    ],
+    "domain": []
+  },
+  {
+    "port": "",
+    "outboundTag": "direct",
+    "ip": [
+      "127.0.0.0",
+      "192.168.0.1/16",
+      "26.0.0.0/8"
+    ],
+    "domain": []
+  },
+  {
+    "outboundTag": "direct",
+    "protocol": [
+      "bittorrent"
+    ]
+  },
+  {
+    "port": "443",
+    "network": "udp",
+    "outboundTag": "block"
+  },
+  {
+    "outboundTag": "block",
+    "domain": [
+      "geosite:category-ads-all"
+    ]
+  },
+  {
+    "port": "",
+    "outboundTag": "proxy",
+    "ip": [
+      "1.0.0.1",
+      "1.1.1.1",
+      "8.8.8.8",
+      "8.8.4.4",
+      "geoip:facebook",
+      "geoip:google",
+      "geoip:twitter"
+    ],
+    "domain": []
+  },
+  {
+    "port": "",
+    "outboundTag": "proxy",
+    "ip": [],
+    "domain": [
+      "discord.com",
+      "discord-attachments-uploads-prd.storage.googleapis.com",
+      "dis.gd",
+      "discord.co",
+      "discord.design",
+      "discord.dev",
+      "domain:discord.gg",
+      "discord.gift",
+      "discord.gifts",
+      "domain:discord.media",
+      "discord.new",
+      "discord.store",
+      "discord.tools",
+      "discordapp.com",
+      "discordapp.net",
+      "discordmerch.com",
+      "discordpartygames.com",
+      "discord-activities.com",
+      "discordactivities.com",
+      "discordsays.com"
+    ]
+  },
+  {
+    "port": "",
+    "outboundTag": "proxy",
+    "ip": [],
+    "domain": [
+      "keyword:steam"
+    ]
+  },
+  {
+    "port": "0-65535",
+    "outboundTag": "direct"
+  }
+]
