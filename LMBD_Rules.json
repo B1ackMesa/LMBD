@@ -1,5 +1,9 @@
 [
   {
+    "port": "0-65535",
+    "outboundTag": "direct"
+  },
+  {
     "outboundTag": "direct",
     "protocol": [
       "bittorrent"
@@ -89,11 +93,18 @@
     "outboundTag": "proxy",
     "ip": [],
     "domain": [
-      "keyword:steam"
+      "domain:youtube.com",
+      "domain:googlevideo.com",
+      "domain:youtu.be",
+      "domain:ytimg.com"
     ]
   },
   {
-    "port": "0-65535",
-    "outboundTag": "direct"
+    "port": "",
+    "outboundTag": "proxy",
+    "ip": [],
+    "domain": [
+      "domain:spotify.com"
+    ]
   }
 ]
