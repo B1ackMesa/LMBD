@@ -1,9 +1,5 @@
 [
   {
-    "port": "0-65535",
-    "outboundTag": "direct"
-  },
-  {
     "outboundTag": "direct",
     "protocol": [
       "bittorrent"
@@ -26,7 +22,6 @@
     "port": "",
     "outboundTag": "direct",
     "ip": [
-      "127.0.0.0",
       "192.168.0.1/16",
       "26.0.0.0/8"
     ],
@@ -106,5 +101,9 @@
     "domain": [
       "domain:spotify.com"
     ]
+  },
+  {
+    "port": "0-65535",
+    "outboundTag": "direct"
   }
 ]
