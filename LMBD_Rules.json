@@ -25,7 +25,9 @@
     "outboundTag": "direct",
     "ip": [
       "192.168.0.1/16",
-      "26.0.0.0/8"
+      "26.0.0.0/8",
+      "geoip:private",
+      "geoip:ru"
     ],
     "domain": []
   },
@@ -54,17 +56,18 @@
     "outboundTag": "proxy",
     "ip": [],
     "domain": [
-      "discord.com",
+      "discordcdn.com",
       "discordstatus.com",
       "discord-attachments-uploads-prd.storage.googleapis.com",
       "dis.gd",
       "discord.co",
+      "discord.com",
       "discord.design",
       "discord.dev",
-      "domain:discord.gg",
+      "discord.gg",
       "discord.gift",
       "discord.gifts",
-      "domain:discord.media",
+      "discord.media",
       "discord.new",
       "discord.store",
       "discord.tools",
@@ -80,9 +83,7 @@
   {
     "port": "50000-50100",
     "network": "udp",
-    "inboundTag": [
-      "socks"
-    ],
+    "inboundTag": [],
     "outboundTag": "proxy",
     "ip": [],
     "domain": []
@@ -108,6 +109,8 @@
   },
   {
     "port": "0-65535",
-    "outboundTag": "direct"
+    "outboundTag": "direct",
+    "ip": [],
+    "domain": []
   }
 ]
