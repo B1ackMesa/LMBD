@@ -1,5 +1,11 @@
 [
   {
+    "port": "0-65535",
+    "outboundTag": "direct",
+    "ip": [],
+    "domain": []
+  },
+  {
     "outboundTag": "direct",
     "protocol": [
       "bittorrent"
@@ -47,7 +53,8 @@
       "8.8.4.4",
       "geoip:facebook",
       "geoip:google",
-      "geoip:twitter"
+      "geoip:twitter",
+      "geoip:telegram"
     ],
     "domain": []
   },
@@ -106,11 +113,5 @@
     "domain": [
       "domain:spotify.com"
     ]
-  },
-  {
-    "port": "0-65535",
-    "outboundTag": "direct",
-    "ip": [],
-    "domain": []
   }
 ]
